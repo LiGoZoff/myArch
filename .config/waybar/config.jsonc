@@ -1,0 +1,182 @@
+{
+	"height": 40,
+	"width": 1880,
+	"margin-top": 10,
+
+	"modules-left": ["custom/nemo", "cpu", "memory", "temperature", "hyprland/workspaces"],
+	"modules-center": ["wlr/taskbar","hyprland/window", "tray"],
+	"modules-right": ["cava","bluetooth", "pulseaudio", "clock", "battery", "custom/power"],
+
+	"custom/menu": {
+		"format": "{icon}",
+		"format-icons": "",
+		"on-click": "~/.config/rofi/launchers/type-6/launcher_2.sh",
+		"escape": true,
+		"tooltip": false,
+	},
+
+	"hyprland/workspaces": {
+		"format": "{icon}",
+		"on-click": "activate",
+		"format-icons": {
+			"urgent": "<span color='#00ffff'>!</span>",
+			"active": "<span color='#00ffff'></span>",
+			"default": "<span color='#00ffff'></span>",
+			},
+		"tooltip": false,
+	},
+	
+	
+
+	"hyprland/window": {
+		"format": "{class}",
+		"separate-outputs": false,
+	},
+	
+	
+
+	"custom/nemo": {
+		"format": "<span color='#0000ff'></span>",
+		"on-click": "exec nemo",
+		"tooltip": false,
+	},
+
+
+
+	"tray": {
+		"icon-size": 20,
+		"spacing": 10,
+	},
+	
+    
+    
+	"pulseaudio": {
+		"scroll-step": 1,
+		"format": "<span color='#00ffff'>{icon}</span> {volume}%",
+		"format-icons": {
+		"default": ["", "", ""]
+		},
+		"on-click": "pavucontrol",
+		"on-click-right": "exec qjackctl",
+		"tooltip": false,
+	},
+	
+	
+
+	"clock": {
+		"format": "<span color='#00ffff'></span> {:%H:%M}",
+		"tooltip-format": "<big><span color='#00ffff'>{:%Y %B}</span></big>\n<tt><small>{calendar}</small></tt>",
+		"format-alt": "<span color='#00ffff'></span> <span color='#00ffff'>{:%Y-%m-%d}</span>",
+
+        "calendar": {
+                    "mode"          : "month",
+                    "mode-mon-col"  : 3,
+                    "weeks-pos"     : "right",
+                    "on-scroll"     : 1,
+                    "format": {
+                              "months":     "<span color='#cdd6f4'><b>{}</b></span>",
+                              "days":       "<span color='#cdd6f4'><b>{}</b></span>",
+                              "weeks":      "<span color='#f5c2e7'><b>W{}</b></span>",
+                              "weekdays":   "<span color='#f5c2e7'><b>{}</b></span>",
+                              "today":      "<span color='#eba0ac'><b><u>{}</u></b></span>"
+                              }
+                    },
+        "actions":  {
+                    "on-click-right": "mode",
+                    "on-click-forward": "tz_up",
+                    "on-click-backward": "tz_down",
+                    "on-scroll-up": "shift_up",
+                    "on-scroll-down": "shift_down",
+                    }
+		},
+		
+		
+
+	"custom/power": {
+		"format": "{icon}",
+		"format-icons": "",
+		"on-click": "~/.config/rofi/powermenu/type-4/powermenu.sh",
+		"escape": true,
+		"tooltip": false
+	},
+	
+	
+	
+	"battery": {
+        "states": {
+            "good": 95,
+            "warning": 30,
+            "critical": 20
+        },
+       "format": "<span color='#00ffff'>{icon}</span> {capacity}%",
+        "format-charging": " {capacity}%",
+        "format-plugged": " {capacity}%",
+        "format-alt": "{time} {icon}",
+       "format-icons": [ "", "", "", ""],
+    },
+    
+    
+          "cpu": {
+          "interval": 2,
+          "format": "<span color='#00ffff'></span> {usage}%",
+          "tooltip": false,
+          "on-click": "exec alacritty --title=htop -e htop",
+      },
+        
+          "memory": {
+          "interval": 2,
+          "cpacing": -100,
+          "format": "<span color='#00ffff'></span> {}%",
+          "on-click": "exec alacritty --title=htop -e htop",
+      },
+      
+          "temperature": {
+          "critical-threshold": 80,
+          "interval": 2,
+          "format": "<span color='#00ffff'></span> {temperatureC}°C",
+          "format-icons": [""],
+      },
+      
+        
+        "disk": {
+        "interval": 15,
+        "format": "<span color='#00ffff'></span> {used}",
+    },
+       
+        "wlr/taskbar": {
+        "format": "{icon}",
+        "icon-size": 20,
+        "spacing": 0,
+        "on-click-middle" : "close",
+        "tooltip-format": "{title}",
+        "on-click": "activate"
+    },
+    
+        "bluetooth": {
+        "format": "<span color='#00ffff'></span>",
+        "on-click": "exec alacritty --title=bluetuith -e bluetuith",
+        "format-disabled": "<span color='#00ffff'></span>",
+        "format-off": "<span color='#00ffff'></span>",
+        "format-on": "<span color='#00ffff'></span>",
+        "format-connected": "<span color='#00ffff'></span> {device_alias}",
+        "max-length": 16
+    },
+    
+        "cava": {
+        "framerate": 120,
+        "autosens": 1,
+        "bars": 12,
+        "method": "pipewire",
+        "source": "auto",
+        "bar_delimiter": 0,
+        "input_delay": 2,
+        "sleep_timer": 2,
+        "hide_on_silence": true,
+        "format-icons" : ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█" ]
+   
+    },
+
+	"escape": true,
+	"exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
+	},
+}
