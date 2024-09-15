@@ -6,5 +6,5 @@ flatpak install flathub org.gnome.TextEditor
 flatpak install --user https://sober.vinegarhq.org/sober.flatpakref
 flatpak install flathub com.github.tchx84.Flatseal
 flatpak install flathub io.github.Soundux
-sudo pacman -R wofi dunst vim kitty dolphhin
+sudo pacman -R wofi dunst vim kitty dolphin
 
