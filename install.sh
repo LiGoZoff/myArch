@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo pacman -S swaybg mako alacritty konsole rofi flatpak pavucontrol dnscrypt-proxy imv htop fastfetch qjackctl neofetch cmatrix waybar wine qbittorrent network-manager-applet steam file-roller nwg-look btop noto-fonts noto-fonts-emoji xdg-desktop-portal-hyprland xdg-desktop-portal-gtk xdg-desktop-portal-wlr xdg-desktop-portal ttf-font-awesome
+sudo pacman -S swaybg mako alacritty nemo gnome-terminal rofi flatpak pavucontrol dnscrypt-proxy imv htop fastfetch qjackctl neofetch cmatrix waybar wine qbittorrent network-manager-applet steam file-roller nwg-look btop noto-fonts noto-fonts-emoji xdg-desktop-portal-hyprland xdg-desktop-portal-gtk xdg-desktop-portal-wlr xdg-desktop-portal ttf-font-awesome
 yay -S hyprpicker clipse cava google-chrome youtube-music-bin telegram-desktop-bin vesktop-bin yandex-music proton-vpn-gtk-app bluetuith-bin onlyoffice-bin osu-lazer-bin ttf-font-icons ttf-ionicons hyprlock hypridle swaylock bluez bluez-utils bluez-deprecated-tools cliphist
 flatpak install flathub org.gnome.TextEditor
 flatpak install --user https://sober.vinegarhq.org/sober.flatpakref
