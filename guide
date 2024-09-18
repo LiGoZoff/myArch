@@ -1,0 +1,94 @@
+nmcli device wifi connect Xiaomi_0298_5G password 59563129
+1.
+cd /opt/
+sudo git clone https://aur.archlinux.org/yay.git
+sudo chown -R ligoz:ligoz yay/
+cd yay/; makepkg -si
+
+2.
+sudo nano /etc/pacman.conf
+Color
+ParallelDownloads = 20
+ILoveCandy
+
+3.
+sudo nano /etc/locale.gen
+sudo localectl set-locale ru_RU.UTF-8
+sudo locale-gen
+reboot
+
+4.
+remove folder "hypr" in ".config"
+git clone https://github.com/LiGoZoff/myArch.git
+достать все из папки (.config don't replace)
+sudo chmod +x .config/rofi/launchers/type-6/launcher.sh
+sudo chmod +x .config/rofi/powermenu/type-4/powermenu.sh
+sudo chmod +x install.sh
+./install.sh
+
+5.
+sudo systemctl enable bluetooth
+sudo systemctl start bluetooth
+sudo rfkill unblock all
+sudo mkdir /etc/init.d
+
+sudo nano /etc/init.d/rfkillunblock
+#!/bin/bash
+rfkill unblock all
+
+sudo chmod +x /etc/init.d/rfkillunblock
+
+sudo nano /etc/systemd/system/rfkillunblock.service
+[Unit]
+Description=rfkillunblock service
+After=network.target
+[Service]
+ExecStart=/etc/init.d/rfkillunblock
+[Install]
+WantedBy=multi-user.target
+
+sudo systemctl start rfkillunblock
+sudo systemctl enable rfkillunblock
+reboot
+
+gsettings set org.cinnamon.desktop.default-applications.terminal exec alacritty
+
+6.
+sudo cp -i /usr/lib/sddm/sddm.conf.d/default.conf /etc/sddm.conf
+
+sudo nano /etc/sddm.conf
+edit section "[Theme]"
+[Theme]
+Current=simple-sddm
+
+sudo mv themes/simple-sddm /usr/share/sddm/themes/
+reboot
+
+7.
+winetricks wininet
+winetricks corefonts vcrun2017
+
+8. 
+cd /opt; git clone https://github.com/bol-van/zapret.git
+cd zapret; ./install_bin.sh
+./install_prereq.sh
+
+new terminal
+sudo nano /etc/dnscrypt-proxy/dnscrypt-proxy.toml
+
+ss -lp 'sport = :domain'
+
+sudo nano /etc/resolv.conf
+nameserver ::1
+nameserver 127.0.0.1
+options edns0 single-request-reopen
+
+chattr +i /etc/resolv.conf
+sudo systemctl enable systemd.service
+sudo systemctl start systemd.service
+sudo systemctl enable dnscrypt-proxy.service
+sudo systemctl start dnscrypt-proxy.service
+
+./blockcheck.sh
+./install_easy.sh
+
