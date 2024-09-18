@@ -65,8 +65,7 @@ sudo mv themes/simple-sddm /usr/share/sddm/themes/
 reboot
 
 7.
-winetricks wininet
-winetricks corefonts vcrun2017
+winetricks wininet corefonts vcrun2017
 
 8. 
 cd /opt; git clone https://github.com/bol-van/zapret.git
