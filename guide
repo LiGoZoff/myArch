@@ -65,6 +65,7 @@ sudo mv themes/simple-sddm /usr/share/sddm/themes/
 reboot
 
 7. 
+sudo su
 cd /opt; git clone https://github.com/bol-van/zapret.git
 cd zapret; ./install_bin.sh
 ./install_prereq.sh
