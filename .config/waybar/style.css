@@ -94,13 +94,28 @@ button:hover {
 #pulseaudio {
 	padding: 2 15;
 	margin: 5;
+	margin-right: -2;
+	margin-left: -2;
 	color: rgba(0, 100, 255, 1);
 	background-color: rgba(202, 0, 172, 0.5);
 	border: none;
-	border-radius: 20;
+	border-radius: 0 0 0 0;
 }
 #pulseaudio.muted {
-	color: @red;
+	color: rgba(255, 0, 0, 1);
+}
+#pulseaudio:hover {
+	color: rgba(255, 0, 0, 1);
+}
+
+#pulseaudio.microphone {
+	padding: 2 15;
+	margin: 5;
+	margin-left: -2;
+	color: rgba(0, 100, 255, 1);
+	background-color: rgba(202, 0, 172, 0.5);
+	border: none;
+	border-radius: 0 20 20 0;
 }
 #pulseaudio:hover {
 	color: rgba(255, 0, 0, 1);
@@ -121,7 +136,7 @@ button:hover {
 #cpu {
 	padding: 2 15;
 	margin: 5;
-	margin-right: 0;
+	margin-right: -2;
 	color: rgba(0, 70, 255, 1);
 	background-color: rgba(202, 0, 172, 0.5);
 	border: none;
@@ -134,8 +149,8 @@ button:hover {
 #memory {
 	padding: 2 15;
 	margin: 5;
-	margin-left: 0;
-	margin-right: 0;
+	margin-left: -2;
+	margin-right: -2;
 	color: rgba(0, 70, 255, 1);
 	background-color: rgba(202, 0, 172, 0.5);
 	border: none;
@@ -172,7 +187,7 @@ button:hover {
 #temperature {
 	padding: 2 15;
 	margin: 5;
-	margin-left: 0;
+	margin-left: -2;
 	color: rgba(0, 70, 255, 1);
 	background-color: rgba(202, 0, 172, 0.5);
 	border: none;
@@ -206,16 +221,35 @@ button:hover {
 #bluetooth {
 	padding: 2 15;
 	margin: 5;
+	margin-right: 0;
 	color: rgba(0, 70, 255, 1);
 	background-color: rgba(202, 0, 172, 0.5);
 	border: none;
-	border-radius: 20;
+	border-radius: 20 0 0 20;
 }	
 #bluetooth:hover {
 	color: rgba(255, 0, 0, 1);
 }
 
 #custom-cava {
+ padding: 2 15;
+ margin: 5;
+ color: rgba(255, 0, 255, 1);
+ background-color: rgba(202, 0, 172, 0.5);
+ border: none;
+ border-radius: 20;
+}	
+
+#custom-yay {
+ padding: 2 15;
+ margin: 5;
+ color: rgba(255, 0, 255, 1);
+ background-color: rgba(202, 0, 172, 0.5);
+ border: none;
+ border-radius: 20;
+}	
+
+#custom-notification {
  padding: 2 15;
  margin: 5;
  color: rgba(255, 0, 255, 1);
