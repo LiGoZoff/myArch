@@ -4,7 +4,6 @@ sudo pacman -S swaybg mako nemo alacritty rofi flatpak pavucontrol dnscrypt-prox
 yay -S hyprpicker clipse cava google-chrome youtube-music-bin telegram-desktop-bin vesktop-bin yandex-music proton-vpn-gtk-app bluetuith-bin onlyoffice-bin osu-lazer-bin ttf-font-icons ttf-ionicons hyprlock hypridle bluez bluez-utils bluez-deprecated-tools cliphist visual-studio-code-bin
 flatpak install --user https://sober.vinegarhq.org/sober.flatpakref
 flatpak install flathub com.github.tchx84.Flatseal
-flatpak install flathub io.github.Soundux
 flatpak install flathub net.lutris.Lutris
 sudo pacman -R wofi dunst vim dolphin
 
