@@ -6,5 +6,5 @@ flatpak install --user https://sober.vinegarhq.org/sober.flatpakref
 flatpak install flathub com.github.tchx84.Flatseal
 flatpak install flathub io.github.Soundux
 flatpak install flathub net.lutris.Lutris
-sudo pacman -R wofi dunst vim dolphin kitty
+sudo pacman -R wofi dunst vim dolphin
 
