@@ -51,7 +51,7 @@ sudo systemctl start rfkillunblock
 sudo systemctl enable rfkillunblock
 reboot
 
-gsettings set org.cinnamon.desktop.default-applications.terminal exec alacritty
+gsettings set org.cinnamon.desktop.default-applications.terminal exec kitty
 
 6.
 sudo cp -i /usr/lib/sddm/sddm.conf.d/default.conf /etc/sddm.conf
