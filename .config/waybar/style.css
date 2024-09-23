@@ -15,20 +15,6 @@ window#waybar.empty #window {
       background: rgba(12, 12, 12, 0.0);
   }      
 
-
-#custom-menu {
-	padding: 2 15;
-	margin: 5;
-	color: rgba(176, 248, 2, 1);
-	background-color: rgba(202, 0, 172, 0.5);
-	border: none;
-	border-radius: 20 0 0 20;
-}
-#custom-menu:hover {
-	color: rgba(255, 0, 0, 1);
-}
-
-
 #workspaces {
 	padding: 2 15;
 	margin: 5;
@@ -160,18 +146,6 @@ button:hover {
 	color: rgba(255, 0, 0, 1);
 }
 
-#disk {
-	padding: 2 15;
-	margin: 5;
-	color: rgba(0, 70, 255, 1);
-	background-color: rgba(202, 0, 172, 0.5);
-	border: none;
-	border-radius: 20;
-}	
-#disk:hover {
-	color: rgba(255, 0, 0, 1);
-}
-
 #battery {
 	padding: 2 15;
 	margin: 5;
@@ -229,33 +203,6 @@ button:hover {
 }	
 #bluetooth:hover {
 	color: rgba(255, 0, 0, 1);
-}
-
-#custom-cava {
- padding: 2 15;
- margin: 5;
- color: rgba(255, 0, 255, 1);
- background-color: rgba(202, 0, 172, 0.5);
- border: none;
- border-radius: 20;
-}	
-
-#custom-yay {
- padding: 2 15;
- margin: 5;
- color: rgba(255, 0, 255, 1);
- background-color: rgba(202, 0, 172, 0.5);
- border: none;
- border-radius: 20;
-}	
-
-#custom-notification {
- padding: 2 15;
- margin: 5;
- color: rgba(255, 0, 255, 1);
- background-color: rgba(202, 0, 172, 0.5);
- border: none;
- border-radius: 20;
 }	
 
 tooltip {
