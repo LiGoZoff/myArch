@@ -24,6 +24,7 @@ fastfetch
 remove folder "hypr" in ".config"
 git clone https://github.com/LiGoZoff/myArch.git
 достать все из папки (.config don't replace)
+sudo chmod +x .config/hypr/vscode.sh
 sudo chmod +x .config/rofi/launchers/type-6/launcher.sh
 sudo chmod +x .config/rofi/powermenu/type-4/powermenu.sh
 sudo chmod +x install.sh
