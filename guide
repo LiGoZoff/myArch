@@ -18,6 +18,9 @@ sudo locale-gen
 reboot
 
 4.
+sudo nano .bashrc
+fastfetch
+
 remove folder "hypr" in ".config"
 git clone https://github.com/LiGoZoff/myArch.git
 достать все из папки (.config don't replace)
