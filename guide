@@ -57,6 +57,7 @@ gsettings set org.cinnamon.desktop.default-applications.terminal exec kitty
 sudo cp -i /usr/lib/sddm/sddm.conf.d/default.conf /etc/sddm.conf
 
 sudo nano /etc/sddm.conf
+num lock=on
 edit section "[Theme]"
 [Theme]
 Current=simple-sddm
