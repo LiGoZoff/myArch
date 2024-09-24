@@ -18,9 +18,6 @@ sudo locale-gen
 reboot
 
 4.
-sudo nano .bashrc
-fastfetch
-
 remove folder "hypr" in ".config"
 git clone https://github.com/LiGoZoff/myArch.git
 достать все из папки (.config don't replace)
@@ -70,7 +67,7 @@ sudo mv themes/simple-sddm /usr/share/sddm/themes/
 reboot
 
 7. 
-sudo -i
+sudo -s
 cd /opt; git clone https://github.com/bol-van/zapret.git
 cd zapret; ./install_bin.sh
 ./install_prereq.sh
