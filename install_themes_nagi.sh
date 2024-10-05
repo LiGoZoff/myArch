@@ -13,15 +13,19 @@ sudo mv ~/myArch/themes/nagi/hyprland.conf ~/.config/hypr/
 
 sudo rm -rf ~/.bashrc
 sudo mv ~/myArch/themes/nagi/.bashrc ~/
+sudo cp ~/.bashrc /root
 
-sudo mkdir .icons
-sudo mkdir .themes
+mkdir .icons
+mkdir .themes
 sudo mv ~/myArch/themes/nagi/Catppuccin-Dark ~/.themes
 sudo mv ~/myArch/themes/nagi/Catppuccin-Dark-hdpi ~/.themes
 sudo mv ~/myArch/themes/nagi/Catppuccin-Dark-xhdpi ~/.themes
 
 sudo mv ~/myArch/themes/nagi/oreo_spark_lite_cursors ~/.icons
 sudo mv ~/myArch/themes/nagi/ePapirus-Dark ~/.icons
+sudo mv ~/myArch/themes/nagi/ePapirus ~/.icons
+sudo mv ~/myArch/themes/nagi/Papirus-Dark ~/.icons
+sudo mv ~/myArch/themes/nagi/Papirus ~/.icons
 
 sudo cp -i /usr/lib/sddm/sddm.conf.d/default.conf /etc/sddm.conf
 sudo mv ~/myArch/themes/nagi/simple-sddm /usr/share/sddm/themes/
