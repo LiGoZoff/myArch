@@ -24,4 +24,4 @@ sudo mv ~/myArch/themes/satoru/oreo_spark_lite_cursors ~/.icons
 sudo mv ~/myArch/themes/satoru/ePapirus-Dark ~/.icons
 
 sudo cp -i /usr/lib/sddm/sddm.conf.d/default.conf /etc/sddm.conf
-sudo mv themes/simple-sddm /usr/share/sddm/themes/
+sudo mv ~/myArch/themes/satoru/simple-sddm /usr/share/sddm/themes/
