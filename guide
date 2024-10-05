@@ -18,12 +18,11 @@ sudo locale-gen
 reboot
 
 4.
-remove folder "hypr" in ".config"
 git clone https://github.com/LiGoZoff/myArch.git
-достать все из папки (.config don't replace)
-sudo chmod +x .config/hypr/vscode.sh
-sudo chmod +x .config/rofi/launchers/type-6/launcher.sh
-sudo chmod +x .config/rofi/powermenu/type-4/powermenu.sh
+sudo chmod +x ~/myArch/.config/hypr/vscode.sh
+sudo chmod +x ~/myArch/.config/rofi/launchers/type-6/launcher.sh
+sudo chmod +x ~/myArch/.config/rofi/powermenu/type-4/powermenu.sh
+
 sudo chmod +x ~/install_themes_nagi.sh
 sudo chmod +x ~/install_themes_satoru.sh
 sudo chmod +x install.sh
