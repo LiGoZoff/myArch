@@ -24,6 +24,8 @@ git clone https://github.com/LiGoZoff/myArch.git
 sudo chmod +x .config/hypr/vscode.sh
 sudo chmod +x .config/rofi/launchers/type-6/launcher.sh
 sudo chmod +x .config/rofi/powermenu/type-4/powermenu.sh
+sudo chmod +x ~/install_themes_nagi.sh
+sudo chmod +x ~/install_themes_satoru.sh
 sudo chmod +x install.sh
 ./install.sh
 
@@ -55,15 +57,12 @@ reboot
 gsettings set org.cinnamon.desktop.default-applications.terminal exec kitty
 
 6.
-sudo cp -i /usr/lib/sddm/sddm.conf.d/default.conf /etc/sddm.conf
-
 sudo nano /etc/sddm.conf
 num lock=on
 edit section "[Theme]"
 [Theme]
 Current=simple-sddm
 
-sudo mv themes/simple-sddm /usr/share/sddm/themes/
 reboot
 
 7. 
