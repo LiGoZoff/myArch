@@ -1,0 +1,214 @@
+* {
+	font-family: JetBrainsMono, Symbols Nerd Font;
+	font-weight: bold;
+	font-size: 16px;
+	min-height: 0;
+}
+
+
+window#waybar {
+	border-radius: 20;
+	background-color: rgba(225, 0, 218, 0.3);
+}
+
+window#waybar.empty #window {
+      background: rgba(12, 12, 12, 0.0);
+  }      
+
+#workspaces {
+	padding: 2 15;
+	margin: 5;
+	color: rgba(0, 70, 255, 1);
+	background-color: rgba(202, 0, 172, 0.5);
+	border: none;
+	border-radius: 20;
+}
+button {
+	box-shadow: inset 0 -3px transparent;
+	border: none;
+	border-radius: 0;
+}
+button:hover {
+	background: inherit;
+	box-shadow: inset 0 -3px transparent;
+}
+#workspaces button {
+	padding: 0 5px;
+	background-color: transparent;
+	color: @gf;
+}
+#workspaces button:hover {
+	color: rgba(255, 0, 0, 1);
+}
+#workspaces button.focused {
+}
+#workspaces button.urgent {
+}
+
+#window {
+	padding: 2 15;
+	margin: 5;
+	color: rgba(255, 0, 0, 1);
+	background-color: rgba(202, 0, 172, 0.5);
+	border: none;
+	border-radius: 20;
+}
+
+
+#custom-nemo {
+	padding: 2 15;
+	margin: 5;
+	color: rgba(0, 0, 255, 1);
+	background-color: rgba(202, 0, 172, 0.5);
+	border: none;
+	border-radius: 20;
+}
+#custom-nemo:hover {
+	color: rgba(255, 0, 0, 1);
+}
+
+
+
+#tray {
+	padding: 2 15;
+	margin: 5;
+	background-color: rgba(202, 0, 172, 0.5);
+	border: none;
+	border-radius: 20;
+}
+
+#pulseaudio {
+	padding: 2 15;
+	margin: 5;
+	margin-right: -2;
+	margin-left: -2;
+	color: rgba(0, 100, 255, 1);
+	background-color: rgba(202, 0, 172, 0.5);
+	border: none;
+	border-radius: 0 0 0 0;
+}
+#pulseaudio.muted {
+	color: rgba(255, 0, 0, 1);
+}
+#pulseaudio:hover {
+	color: rgba(255, 0, 0, 1);
+}
+
+#pulseaudio.microphone {
+	padding: 2 15;
+	margin: 5;
+	margin-left: -2;
+	color: rgba(0, 100, 255, 1);
+	background-color: rgba(202, 0, 172, 0.5);
+	border: none;
+	border-radius: 0 20 20 0;
+}
+#pulseaudio:hover {
+	color: rgba(255, 0, 0, 1);
+}
+
+#clock {
+	padding: 2 15;
+	margin: 5;
+	color: rgba(0, 100, 255, 1);
+	background-color: rgba(202, 0, 172, 0.5);
+	border: none;
+	border-radius: 20;
+}
+#clock:hover {
+	color: rgba(255, 0, 0, 1);
+}
+
+#cpu {
+	padding: 2 15;
+	margin: 5;
+	margin-right: -2;
+	color: rgba(0, 70, 255, 1);
+	background-color: rgba(202, 0, 172, 0.5);
+	border: none;
+	border-radius: 20 0 0 20;
+}	
+#cpu:hover {
+	color: rgba(255, 0, 0, 1);
+}
+
+#memory {
+	padding: 2 15;
+	margin: 5;
+	margin-left: -2;
+	margin-right: -2;
+	color: rgba(0, 70, 255, 1);
+	background-color: rgba(202, 0, 172, 0.5);
+	border: none;
+	border-radius: 0;
+}
+#memory:hover {
+	color: rgba(255, 0, 0, 1);
+}
+
+#battery {
+	padding: 2 15;
+	margin: 5;
+	color: rgba(0, 100, 255, 1);
+	background-color: rgba(202, 0, 172, 0.5);
+	border: none;
+	border-radius: 20;
+}	
+#battery:hover {
+	color: rgba(255, 0, 0, 1);
+}
+
+#temperature {
+	padding: 2 15;
+	margin: 5;
+	margin-left: -2;
+	color: rgba(0, 70, 255, 1);
+	background-color: rgba(202, 0, 172, 0.5);
+	border: none;
+	border-radius: 0 20 20 0;
+}	
+#temperature:hover {
+	color: rgba(255, 0, 0, 1);
+}
+
+#wlr-taskbar {
+	padding: 2 15;
+	margin: 5;
+	color: rgba(0, 70, 255, 1);
+	background-color: rgba(202, 0, 172, 0.5);
+	border: none;
+	border-radius: 20;
+}	
+
+#custom-power {
+	padding: 2 15;
+	margin: 5 10 5 5;
+	color: rgba(255, 0, 0, 1);
+	background-color: rgba(202, 0, 172, 0.5);
+	border: none;
+	border-radius: 20;
+}
+#custom-power:hover {
+	color: rgba(0, 70, 255, 1);
+}
+
+#bluetooth {
+	padding: 2 15;
+	margin: 5;
+	margin-right: 0;
+	color: rgba(0, 70, 255, 1);
+	background-color: rgba(202, 0, 172, 0.5);
+	border: none;
+	border-radius: 20 0 0 20;
+}	
+#bluetooth:hover {
+	color: rgba(255, 0, 0, 1);
+}	
+
+tooltip {
+	background: @bg;
+	margin: 20px;
+	padding: 15px;
+	border: 20px solid rgba(100, 114, 125, 0);
+	border-radius: 10px;
+}
