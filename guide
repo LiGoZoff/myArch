@@ -27,8 +27,11 @@ sudo chmod +x ~/install_themes_nagi.sh
 sudo chmod +x ~/install_themes_satoru.sh
 sudo chmod +x install.sh
 ./install.sh
+reboot
 
 5.
+./install_themes_nagi.sh
+./install_themes_satoru.sh
 sudo systemctl enable bluetooth
 sudo systemctl start bluetooth
 sudo rfkill unblock all
