@@ -26,7 +26,7 @@ sudo chmod +x ~/myArch/.config/rofi/powermenu/type-4/powermenu.sh
 sudo chmod +x ~/install_themes_nagi.sh
 sudo chmod +x ~/install_themes_satoru.sh
 sudo chmod +x install.sh
-bash ~/myArch/install.sh
+./install.sh
 reboot
 
 5.
