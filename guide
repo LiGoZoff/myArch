@@ -57,9 +57,8 @@ WantedBy=multi-user.target
 
 sudo systemctl start rfkillunblock
 sudo systemctl enable rfkillunblock
-reboot
-
 gsettings set org.cinnamon.desktop.default-applications.terminal exec kitty
+reboot
 
 6.
 sudo nano /etc/sddm.conf
