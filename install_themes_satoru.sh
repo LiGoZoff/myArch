@@ -13,7 +13,7 @@ sudo mv ~/myArch/themes/satoru/hyprland.conf ~/.config/hypr/
 
 sudo rm -rf ~/.bashrc
 sudo mv ~/myArch/themes/satoru/.bashrc ~/
-sudo cp ~/.bashrc /root
+sudo cp ~/myArch/.bashrc /root
 
 mkdir .icons
 mkdir .themes
