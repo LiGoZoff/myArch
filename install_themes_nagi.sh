@@ -13,7 +13,7 @@ sudo mv ~/myArch/themes/nagi/hyprland.conf ~/.config/hypr/
 
 sudo rm -rf ~/.bashrc
 sudo mv ~/myArch/themes/nagi/.bashrc ~/
-sudo cp ~/myArch/.bashrc /root
+sudo mv ~/myArch/.bashrc /root
 
 mkdir .icons
 mkdir .themes
