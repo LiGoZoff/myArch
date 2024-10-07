@@ -27,10 +27,12 @@ sudo chmod +x ~/install_themes_nagi.sh
 sudo chmod +x ~/install_themes_satoru.sh
 sudo chmod +x install.sh
 ./install.sh
-распаковать архивы
+sudo rm -rf ~/.config/hypr/hyprland.conf
+sudo mv ~/myArch/themes/nagi/hyprland.conf ~/.config/hypr/
 reboot
 
 5.
+распаковать архивы
 ./install_themes_nagi.sh
 ./install_themes_satoru.sh
 sudo systemctl enable bluetooth
