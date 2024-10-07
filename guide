@@ -58,9 +58,7 @@ WantedBy=multi-user.target
 sudo systemctl start rfkillunblock
 sudo systemctl enable rfkillunblock
 gsettings set org.cinnamon.desktop.default-applications.terminal exec kitty
-reboot
 
-6.
 sudo nano /etc/sddm.conf
 num lock=on
 edit section "[Theme]"
@@ -69,7 +67,7 @@ Current=simple-sddm
 
 reboot
 
-7. 
+6. 
 sudo -s
 cd /opt; git clone https://github.com/bol-van/zapret.git
 cd zapret; ./install_bin.sh
