@@ -27,10 +27,10 @@ sudo chmod +x ~/install_themes_nagi.sh
 sudo chmod +x ~/install_themes_satoru.sh
 sudo chmod +x install.sh
 ./install.sh
+распаковать архивы
 reboot
 
 5.
-распаковать архивы
 ./install_themes_nagi.sh
 ./install_themes_satoru.sh
 sudo systemctl enable bluetooth
