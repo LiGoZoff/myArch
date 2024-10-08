@@ -32,8 +32,8 @@ reboot
 
 5.
 распаковать архивы
-./install_themes_nagi.sh
-./install_themes_satoru.sh
+./myArch/install_themes_nagi.sh
+./myArch/install_themes_satoru.sh
 sudo systemctl enable bluetooth
 sudo systemctl start bluetooth
 sudo rfkill unblock all
