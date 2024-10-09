@@ -31,7 +31,6 @@ sudo cp ~/myArch/themes/nagi/hyprland.conf ~/.config/hypr/
 reboot
 
 5.
-sudo debtap -u
 распаковать архивы
 ./myArch/install_themes_nagi.sh
 ./myArch/install_themes_satoru.sh
