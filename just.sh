@@ -45,7 +45,7 @@ sudo mv ~/myArch/conf/sddm.conf /etc/
 mv ~/myArch/install_themes_nagi.sh ~/
 mv ~/myArch/install_themes_satoru.sh ~/
 
-sudo cd /opt; sudo git clone https://github.com/bol-van/zapret.git
+cd /opt; sudo git clone https://github.com/bol-van/zapret.git
 cd zapret; sudo bash install_bin.sh
 sudo bash install_prereq.sh
 
