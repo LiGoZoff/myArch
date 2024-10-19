@@ -1,8 +1,8 @@
 #!/bin/bash
 
 sudo rm -rf /opt/zapret/config
-sudo mv ~/config /opt/zapret/
+sudo mv ~/myArch/dpi/config /opt/zapret/
 sudo rm -rf /opt/zapret/ipset/zapret-hosts-user.txt
-sudo mv ~/zapret-hosts-user.txt /opt/zapret/ipset/
+sudo mv ~/myArch/dpi/zapret-hosts-user.txt /opt/zapret/ipset/
 sudo rm -rf /opt/zapret/init.d/sysv/custom
-sudo mv ~/custom /opt/zapret/init.d/sysv/
+sudo mv ~/myArch/dpi/custom /opt/zapret/init.d/sysv/
