@@ -34,3 +34,5 @@ sudo mv ~/Papirus-Dark ~/.icons
 sudo mv ~/Papirus ~/.icons
 
 sudo mv ~/simple-sddm /usr/share/sddm/themes/
+
+sudo rm -rf ~/myArch
