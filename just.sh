@@ -41,6 +41,9 @@ gsettings set org.cinnamon.desktop.default-applications.terminal exec kitty
 sudo cp -i /usr/lib/sddm/sddm.conf.d/default.conf /etc/sddm.conf
 sudo mv ~/myArch/conf/sddm.conf /etc/
 
+mv ~/myArch/install_themes_nagi.sh ~/
+mv ~/myArch/install_themes_satoru.sh ~/
+
 sudo cd /opt; sudo git clone https://github.com/bol-van/zapret.git
 cd zapret; sudo bash install_bin.sh
 sudo bash install_prereq.sh
