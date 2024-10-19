@@ -50,7 +50,7 @@ cd zapret; sudo bash install_bin.sh
 sudo bash install_prereq.sh
 
 sudo chmod +x ~/myArch/conf/dpi.sh
-sudo bash ~/myArch/conf/dpi.sh
+bash ~/myArch/conf/dpi.sh
 
 sudo bash blockcheck.sh
 sudo bash install_easy.sh
