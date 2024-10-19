@@ -19,7 +19,7 @@ sudo rm -rf /etc/pacman.conf
 sudo mv ~/myArch/conf/pacman.conf /etc/
 
 sudo rm -rf /etc/local.gen
-sudo mv ~/myArch/conf/locale.gen
+sudo mv ~/myArch/conf/locale.gen /etc/
 sudo localectl set-locale ru_RU.UTF-8
 sudo locale-gen
 
