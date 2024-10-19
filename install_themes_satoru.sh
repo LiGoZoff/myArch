@@ -1,10 +1,10 @@
 #!/bin/bash
 
 
-tar -xJf ~/myArch/themes/nagi/Lavanda-Dark.tar.xz
-tar -xvzf ~/myArch/themes/nagi/cursor.tar.gz 
-tar -xJf ~/myArch/themes/nagi/papirus-icon-theme-carmine-folders.tar.xz 
-tar -xvzf ~/myArch/themes/nagi/simple-sddm.tar.gz 
+tar -xJf ~/myArch/themes/satoru/Lavanda-Dark.tar.xz
+tar -xvzf ~/myArch/themes/satoru/cursor.tar.gz 
+tar -xJf ~/myArch/themes/satoru/papirus-icon-theme-carmine-folders.tar.xz 
+tar -xvzf ~/myArch/themes/satoru/simple-sddm.tar.gz 
 
 sudo rm -rf ~/.config/hypr
 sudo mv ~/myArch/.config/hypr ~/.config/
@@ -23,15 +23,15 @@ sudo mv ~/myArch/.bashrc /root
 
 mkdir .icons
 mkdir .themes
-sudo mv ~/myArch/themes/satoru/Catppuccin-Dark ~/.themes
-sudo mv ~/myArch/themes/satoru/Catppuccin-Dark-hdpi ~/.themes
-sudo mv ~/myArch/themes/satoru/Catppuccin-Dark-xhdpi ~/.themes
+sudo mv ~/Lavanda-Dark ~/.themes
+sudo mv ~/Lavanda-Dark-hdpi ~/.themes
+sudo mv ~/Lavanda-Dark-xhdpi ~/.themes
 
-sudo mv ~/myArch/themes/satoru/oreo_spark_lite_cursors ~/.icons
-sudo mv ~/myArch/themes/satoru/ePapirus-Dark ~/.icons
-sudo mv ~/myArch/themes/satoru/ePapirus ~/.icons
-sudo mv ~/myArch/themes/satoru/Papirus-Dark ~/.icons
-sudo mv ~/myArch/themes/satoru/Papirus ~/.icons
+sudo mv ~/oreo_spark_lite_cursors ~/.icons
+sudo mv ~/ePapirus-Dark ~/.icons
+sudo mv ~/ePapirus ~/.icons
+sudo mv ~/Papirus-Dark ~/.icons
+sudo mv ~/Papirus ~/.icons
 
 sudo cp -i /usr/lib/sddm/sddm.conf.d/default.conf /etc/sddm.conf
-sudo mv ~/myArch/themes/satoru/simple-sddm /usr/share/sddm/themes/
+sudo mv ~simple-sddm /usr/share/sddm/themes/
