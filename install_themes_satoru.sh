@@ -1,5 +1,11 @@
 #!/bin/bash
 
+
+tar -xJf ~/myArch/themes/nagi/Lavanda-Dark.tar.xz
+tar -xvzf ~/myArch/themes/nagi/cursor.tar.gz 
+tar -xJf ~/myArch/themes/nagi/papirus-icon-theme-carmine-folders.tar.xz 
+tar -xvzf ~/myArch/themes/nagi/simple-sddm.tar.gz 
+
 sudo rm -rf ~/.config/hypr
 sudo mv ~/myArch/.config/hypr ~/.config/
 sudo mv ~/myArch/.config/alacritty ~/.config/
