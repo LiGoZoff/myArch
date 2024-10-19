@@ -5,6 +5,7 @@ tar -xvzf ~/myArch/themes/nagi/Catppuccin-Dark-B-LB.tar.gz
 tar -xvzf ~/myArch/themes/nagi/cursor.tar.gz 
 tar -xJf ~/myArch/themes/nagi/papirus-icon-theme-carmine-folders.tar.xz 
 tar -xvzf ~/myArch/themes/nagi/simple-sddm.tar.gz 
+rm -rf ~/Papirus-Light
 
 sudo rm -rf ~/.config/hypr
 sudo mv ~/myArch/.config/hypr ~/.config/
