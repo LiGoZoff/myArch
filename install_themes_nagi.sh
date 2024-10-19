@@ -23,15 +23,15 @@ sudo mv ~/myArch/.bashrc /root
 
 mkdir .icons
 mkdir .themes
-sudo mv ~/myArch/themes/nagi/Catppuccin-Dark ~/.themes
-sudo mv ~/myArch/themes/nagi/Catppuccin-Dark-hdpi ~/.themes
-sudo mv ~/myArch/themes/nagi/Catppuccin-Dark-xhdpi ~/.themes
+sudo mv ~/Catppuccin-Dark ~/.themes
+sudo mv ~/Catppuccin-Dark-hdpi ~/.themes
+sudo mv ~/Catppuccin-Dark-xhdpi ~/.themes
 
-sudo mv ~/myArch/themes/nagi/oreo_spark_lite_cursors ~/.icons
-sudo mv ~/myArch/themes/nagi/ePapirus-Dark ~/.icons
-sudo mv ~/myArch/themes/nagi/ePapirus ~/.icons
-sudo mv ~/myArch/themes/nagi/Papirus-Dark ~/.icons
-sudo mv ~/myArch/themes/nagi/Papirus ~/.icons
+sudo mv ~/oreo_spark_lite_cursors ~/.icons
+sudo mv ~/ePapirus-Dark ~/.icons
+sudo mv ~/ePapirus ~/.icons
+sudo mv ~/Papirus-Dark ~/.icons
+sudo mv ~/Papirus ~/.icons
 
 sudo cp -i /usr/lib/sddm/sddm.conf.d/default.conf /etc/sddm.conf
-sudo mv ~/myArch/themes/nagi/simple-sddm /usr/share/sddm/themes/
+sudo mv ~/simple-sddm /usr/share/sddm/themes/
