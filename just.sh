@@ -34,7 +34,7 @@ sudo rfkill unblock all
 sudo mkdir /etc/init.d
 sudo mv ~/myArch/conf/rfkillunblock /etc/init.d/
 sudo chmod +x /etc/init.d/rfkillunblock
-sudo nano mv ~/myArch/conf/rfkillunblock.service /etc/systemd/system/
+sudo mv ~/myArch/conf/rfkillunblock.service /etc/systemd/system/
 sudo systemctl start rfkillunblock
 sudo systemctl enable rfkillunblock
 gsettings set org.cinnamon.desktop.default-applications.terminal exec kitty
