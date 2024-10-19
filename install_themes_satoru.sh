@@ -33,5 +33,4 @@ sudo mv ~/ePapirus ~/.icons
 sudo mv ~/Papirus-Dark ~/.icons
 sudo mv ~/Papirus ~/.icons
 
-sudo cp -i /usr/lib/sddm/sddm.conf.d/default.conf /etc/sddm.conf
 sudo mv ~simple-sddm /usr/share/sddm/themes/
