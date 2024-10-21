@@ -25,8 +25,6 @@ sudo locale-gen
 
 cd ~
 ./myArch/install.sh
-sudo rm -rf ~/.config/hypr/hyprland.conf
-sudo cp ~/myArch/themes/nagi/hyprland.conf ~/.config/hypr/
 
 sudo systemctl enable bluetooth
 sudo systemctl start bluetooth
