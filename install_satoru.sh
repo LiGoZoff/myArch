@@ -1,6 +1,6 @@
 #!/bin/bash
 
-nmcli device wifi connect Xiaomi_0298_5G password 59563129
+nmcli device wifi connect Xiaomi_0298 password 59563129
 
 git clone https://github.com/LiGoZoff/myArch.git
 sudo chmod +x ~/myArch/.config/hypr/vscode.sh
