@@ -51,6 +51,8 @@ sudo bash install_prereq.sh
 sudo chmod +x ~/myArch/conf/dpi.sh
 bash ~/myArch/conf/dpi.sh
 
+bash ~/myArch/dpi/dpi.sh
+
 tar -xJf ~/myArch/themes/satoru/Lavanda-Dark.tar.xz
 tar -xvzf ~/myArch/themes/satoru/cursor.tar.gz 
 tar -xJf ~/myArch/themes/satoru/papirus-icon-theme-carmine-folders.tar.xz 
