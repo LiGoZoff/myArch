@@ -88,3 +88,5 @@ sudo mv ~/simple-sddm /usr/share/sddm/themes/
 
 sudo rm -rf ~/myArch
 sudo rm -rf ~/install_nagi.sh
+
+systemctl poweroff
