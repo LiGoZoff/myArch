@@ -87,3 +87,4 @@ sudo mv ~simple-sddm /usr/share/sddm/themes/
 sudo rm -rf ~/myArch
 sudo rm -rf ~/install_satoru.sh
 
+systemctl poweroff
