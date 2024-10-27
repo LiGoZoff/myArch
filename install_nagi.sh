@@ -51,6 +51,8 @@ sudo bash install_prereq.sh
 sudo chmod +x ~/myArch/conf/dpi.sh
 bash ~/myArch/conf/dpi.sh
 
+bash ~/myArch/dpi/dpi.sh
+
 
 tar -xvzf ~/myArch/themes/nagi/Catppuccin-Dark-B-LB.tar.gz
 tar -xvzf ~/myArch/themes/nagi/cursor.tar.gz 
