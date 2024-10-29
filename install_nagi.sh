@@ -4,8 +4,8 @@ nmcli device wifi connect Xiaomi_0298 password 59563129
 
 git clone https://github.com/LiGoZoff/myArch.git
 sudo chmod +x ~/myArch/.config/hypr/vscode.sh
-sudo chmod +x ~/myArch/.config/rofi/launchers/type-6/launcher.sh
-sudo chmod +x ~/myArch/.config/rofi/powermenu/type-4/powermenu.sh
+sudo chmod +x ~/myArch/themes/nagi/rofi/launchers/type-6/launcher.sh
+sudo chmod +x ~/myArch/themes/nagi/rofi/powermenu/type-4/powermenu.sh
 
 cd /opt/
 sudo git clone https://aur.archlinux.org/yay.git
