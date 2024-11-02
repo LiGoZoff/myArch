@@ -6,6 +6,8 @@ git clone https://github.com/LiGoZoff/myArch.git
 sudo chmod +x ~/myArch/.config/hypr/vscode.sh
 sudo chmod +x ~/myArch/themes/nagi/rofi/launchers/launcher.sh
 sudo chmod +x ~/myArch/themes/nagi/rofi/powermenu/powermenu.sh
+sudo chmod +x ~/myArch/scripts/install.sh
+sudo chmod +x ~/myArch/scripts/zapret.sh
 
 cd /opt/
 sudo git clone https://aur.archlinux.org/yay.git
