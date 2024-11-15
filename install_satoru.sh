@@ -43,14 +43,7 @@ sudo mv ~/Papirus ~/.icons
 
 sudo mv ~simple-sddm /usr/share/sddm/themes/
 
-cd /opt; sudo git clone https://github.com/bol-van/zapret.git
-cd zapret; sudo bash install_bin.sh
-sudo bash install_prereq.sh
-
-sudo chmod +x ~/myArch/conf/dpi.sh
-bash ~/myArch/conf/dpi.sh
-
-bash ~/myArch/dpi/dpi.sh
+sudo bash ~/myArch/scripts/zapret.sh
 
 sudo rm -rf ~/myArch
 sudo rm -rf ~/install_satoru.sh
