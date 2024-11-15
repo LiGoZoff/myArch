@@ -13,8 +13,6 @@ sudo mv ~/myArch/conf/locale.gen /etc/
 sudo localectl set-locale ru_RU.UTF-8
 sudo locale-gen
 
-sudo bash ~/myArch/scripts/install.sh
-
 sudo systemctl enable bluetooth
 sudo systemctl start bluetooth
 sudo rfkill unblock all
