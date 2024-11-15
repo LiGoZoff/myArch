@@ -8,36 +8,7 @@ sudo chmod +x ~/myArch/themes/nagi/rofi/launchers/launcher.sh
 sudo chmod +x ~/myArch/themes/nagi/rofi/powermenu/powermenu.sh
 sudo chmod +x ~/myArch/scripts/install.sh
 sudo chmod +x ~/myArch/scripts/zapret.sh
-
-cd /opt/
-sudo git clone https://aur.archlinux.org/yay.git
-sudo chown -R ligoz:ligoz yay/
-cd yay/; makepkg -si
-
-sudo rm -rf /etc/pacman.conf
-sudo mv ~/myArch/conf/pacman.conf /etc/
-
-sudo rm -rf /etc/local.gen
-sudo mv ~/myArch/conf/locale.gen /etc/
-sudo localectl set-locale ru_RU.UTF-8
-sudo locale-gen
-
-sudo bash ~/myArch/scripts/install.shn
-
-sudo systemctl enable bluetooth
-sudo systemctl start bluetooth
-sudo rfkill unblock all
-sudo mkdir /etc/init.d
-sudo mv ~/myArch/conf/rfkillunblock /etc/init.d/
-sudo chmod +x /etc/init.d/rfkillunblock
-sudo mv ~/myArch/conf/rfkillunblock.service /etc/systemd/system/
-sudo systemctl start rfkillunblock
-sudo systemctl enable rfkillunblock
-gsettings set org.cinnamon.desktop.default-applications.terminal exec kitty
-
-sudo cp -i /usr/lib/sddm/sddm.conf.d/default.conf /etc/sddm.conf
-sudo mv ~/myArch/conf/sddm.conf /etc/
-
+sudo bash ~/myArch/scripts/install.sh
 
 tar -xJf ~/myArch/themes/nagi/Kripton-v40.tar.xz
 tar -xvzf ~/myArch/themes/nagi/cursor.tar.gz 
