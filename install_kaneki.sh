@@ -43,8 +43,6 @@ sudo mv ~/Papirus ~/.icons
 
 sudo mv ~/simple-sddm /usr/share/sddm/themes/
 
-./myArch/scripts/dpi.sh
-cd ~
 ./myArch/scripts/zapret.sh
 
 sudo rm -rf ~/myArch
