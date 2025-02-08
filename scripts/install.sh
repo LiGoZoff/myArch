@@ -16,7 +16,7 @@ sudo locale-gen
 
 cd ~
 sudo pacman -S mako dotnet-sdk nemo alacritty rofi flatpak ibus pavucontrol dnscrypt-proxy imv htop fastfetch qjackctl neofetch cmatrix waybar qbittorrent network-manager-applet steam file-roller nwg-look btop noto-fonts noto-fonts-emoji noto-fonts-cjk ttf-hannom xdg-desktop-portal-hyprland xdg-desktop-portal-gtk xdg-desktop-portal-wlr xdg-desktop-portal ttf-font-awesome plasma-framework5 lib32-sdl2 dnsutils webkit2gtk
-yay -S hyprpicker swww-git swengine clipse cava google-chrome telegram-desktop youtube-music-bin vesktop-bin yandex-music bluetuith-bin nordvpn-bin onlyoffice-bin osu-lazer ttf-font-icons ttf-ionicons hyprlock hypridle bluez bluez-utils bluez-deprecated-tools cliphist visual-studio-code-bin spotify pywal-16-colors
+yay -S hyprpicker swww-git swengine clipse cava google-chrome telegram-desktop-git youtube-music-bin vesktop-bin yandex-music bluetuith-bin nordvpn-bin onlyoffice-bin osu-lazer ttf-font-icons ttf-ionicons hyprlock hypridle bluez bluez-utils bluez-deprecated-tools cliphist visual-studio-code-bin spotify pywal-16-colors
 flatpak install flathub net.lutris.Lutris
 sudo pacman -Rns wofi dunst vim dolphin
 
