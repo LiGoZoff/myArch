@@ -3,7 +3,8 @@
 cd /opt/
 sudo git clone https://aur.archlinux.org/yay.git
 sudo chown -R ligoz:ligoz yay/
-cd yay/; makepkg -si
+cd yay/
+makepkg -si
 
 sudo rm -rf /etc/pacman.conf
 sudo mv ~/myArch/conf/pacman.conf /etc/
