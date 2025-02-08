@@ -43,7 +43,8 @@ sudo mv ~/Papirus ~/.icons
 
 sudo mv ~/simple-sddm /usr/share/sddm/themes/
 
-sudo bash ~/myArch/scripts/zapret.sh
+cd ~
+./myArch/scripts/zapret.sh
 
 sudo rm -rf ~/myArch
 sudo rm -rf ~/install_kaneki.sh
