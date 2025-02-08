@@ -8,7 +8,7 @@ sudo chmod +x ~/myArch/themes/kaneki/rofi/launchers/launcher.sh
 sudo chmod +x ~/myArch/themes/kaneki/rofi/powermenu/powermenu.sh
 sudo chmod +x ~/myArch/scripts/install.sh
 sudo chmod +x ~/myArch/scripts/zapret.sh
-sudo bash ~/myArch/scripts/install.sh
+./myArch/scripts/install.sh
 
 tar -xJf ~/myArch/themes/kaneki/Kripton-v40.tar.xz
 tar -xvzf ~/myArch/themes/kaneki/cursor.tar.gz 
