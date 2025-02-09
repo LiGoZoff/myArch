@@ -22,6 +22,7 @@ sudo mv ~/myArch/.config/fastfetch ~/.config/
 sudo mv ~/myArch/.config/mako ~/.config/
 sudo mv ~/myArch/.config/rofi ~/.config/
 sudo mv ~/myArch/.config/waybar ~/.config/
+sudo mv ~/myArch/.config/clipse ~/.config/
 mkdir Pictures; mkdir Pictures/Wallpapers; mkdir Pictures/Screenshots
 
 sudo rm -rf ~/.bashrc
