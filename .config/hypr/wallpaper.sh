@@ -1,6 +1,8 @@
 #!/bin/bash
 
+pkill -SIGUSR1 waybar
 rm -rf .cache/wal
 cd Pictures/Wallpapers
 wal -i .wallpaper_current
-waybar
+pkill -SIGUSR2 waybar
+pkill -SIGUSR1 waybar
