@@ -15,7 +15,7 @@ window#waybar {
 }
 
 window#waybar.empty #window {
-      background: rgba(153, 153, 153, 1);
+      background: @background;
   }      
 
 #workspaces {
