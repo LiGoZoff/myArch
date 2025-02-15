@@ -119,13 +119,13 @@
           "cpu": {
           "interval": 2,
           "format": " {usage}%",
-          "tooltip": false,,
+          "tooltip": false,
       },
         
           "memory": {
           "interval": 2,
           "cpacing": -100,
-          "format": " {}%",,
+          "format": " {}%",
       },
       
           "temperature": {
