@@ -58,20 +58,6 @@ button:hover {
 }
 
 
-#custom-nemo {
-	padding: 2 15;
-	margin: 5;
-	color: @color2;
-	background-color: @background;
-	border: none;
-	border-radius: 20;
-}
-#custom-nemo:hover {
-	color: rgb(109, 109, 109);
-}
-
-
-
 #tray {
 	padding: 2 15;
 	margin: 5;
@@ -92,10 +78,6 @@ button:hover {
 }
 #pulseaudio.muted {
 	color: rgb(255, 0, 0);
-}
-#pulseaudio:hover {
-	color: rgb(109, 109, 109);
-}
 
 #pulseaudio.microphone {
 	padding: 2 15;
@@ -105,10 +87,6 @@ button:hover {
 	background-color: @background;
 	border: none;
 	border-radius: 0 20 20 0;
-}
-#pulseaudio:hover {
-	color: rgb(109, 109, 109);
-}
 
 #custom-updater {
 	padding: 2 15;
@@ -126,10 +104,6 @@ button:hover {
 	background-color: @background;
 	border: none;
 	border-radius: 20;
-}
-#clock:hover {
-	color: rgb(109, 109, 109);
-}
 
 #cpu {
 	padding: 2 15;
@@ -139,10 +113,6 @@ button:hover {
 	background-color: @background;
 	border: none;
 	border-radius: 20 0 0 20;
-}	
-#cpu:hover {
-	color: rgb(109, 109, 109);
-}
 
 #memory {
 	padding: 2 15;
@@ -153,10 +123,6 @@ button:hover {
 	background-color: @background;
 	border: none;
 	border-radius: 0;
-}
-#memory:hover {
-	color: rgb(109, 109, 109);
-}
 
 #battery {
 	padding: 2 15;
@@ -165,10 +131,6 @@ button:hover {
 	background-color: @background;
 	border: none;
 	border-radius: 20;
-}	
-#battery:hover {
-	color: rgb(109, 109, 109);
-}
 
 #temperature {
 	padding: 2 15;
@@ -177,23 +139,7 @@ button:hover {
 	color: @color2;
 	background-color: @background;
 	border: none;
-	border-radius: 0 20 20 0;
-}	
-#temperature:hover {
-	color: rgb(109, 109, 109);
-}	
-
-#custom-power {
-	padding: 2 15;
-	margin: 5 10 5 5;
-	color: rgb(255, 0, 0);
-	background-color: @background;
-	border: none;
-	border-radius: 20;
-}
-#custom-power:hover {
-	color: rgb(255, 255, 255);
-}
+	border-radius: 0 20 20 0;	
 
 #bluetooth {
 	padding: 2 15;
@@ -202,11 +148,7 @@ button:hover {
 	color: @color2;
 	background-color: @background;
 	border: none;
-	border-radius: 20 0 0 20;
-}	
-#bluetooth:hover {
-	color: rgb(109, 109, 109);
-}	
+	border-radius: 20 0 0 20;	
 
 tooltip {
 	background: @bg;
