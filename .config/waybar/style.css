@@ -78,7 +78,7 @@ button:hover {
 }
 #pulseaudio.muted {
 	color: rgb(255, 0, 0);
-
+}
 #pulseaudio.microphone {
 	padding: 2 15;
 	margin: 5;
@@ -87,7 +87,7 @@ button:hover {
 	background-color: @background;
 	border: none;
 	border-radius: 0 20 20 0;
-
+}
 #custom-updater {
 	padding: 2 15;
 	margin: 5;
@@ -104,7 +104,7 @@ button:hover {
 	background-color: @background;
 	border: none;
 	border-radius: 20;
-
+}
 #cpu {
 	padding: 2 15;
 	margin: 5;
@@ -113,7 +113,7 @@ button:hover {
 	background-color: @background;
 	border: none;
 	border-radius: 20 0 0 20;
-
+}
 #memory {
 	padding: 2 15;
 	margin: 5;
@@ -123,7 +123,7 @@ button:hover {
 	background-color: @background;
 	border: none;
 	border-radius: 0;
-
+}
 #battery {
 	padding: 2 15;
 	margin: 5;
@@ -131,7 +131,7 @@ button:hover {
 	background-color: @background;
 	border: none;
 	border-radius: 20;
-
+}
 #temperature {
 	padding: 2 15;
 	margin: 5;
@@ -140,7 +140,7 @@ button:hover {
 	background-color: @background;
 	border: none;
 	border-radius: 0 20 20 0;	
-
+}
 #bluetooth {
 	padding: 2 15;
 	margin: 5;
@@ -149,7 +149,7 @@ button:hover {
 	background-color: @background;
 	border: none;
 	border-radius: 20 0 0 20;	
-
+}
 tooltip {
 	background: @bg;
 	margin: 20px;
