@@ -2,6 +2,5 @@
 
 sudo chmod +x ~/myArch/scripts/dpi.sh
 sudo bash ~/myArch/scripts/dpi.sh
-tar -xvzf ~/myArch/conf/zapret.tar.gz
-sudo mv ~/zapret /opt/
-cd /opt/zapret
+git clone https://github.com/Sergeydigl3/zapret-discord-youtube-linux.git
+sudo mv myArch/conf/conf.env zapret-discord-youtube-linux/
