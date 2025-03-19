@@ -18,6 +18,7 @@ sudo rm -rf ~/Papirus-Light
 
 sudo rm -rf ~/.config/hypr
 sudo mv ~/myArch/.config/hypr ~/.config/
+sudo mv ~/myArch/.config/wal ~/.config/
 sudo mv ~/myArch/.config/kitty ~/.config/
 sudo mv ~/myArch/.config/fastfetch ~/.config/
 sudo mv ~/myArch/.config/mako ~/.config/
