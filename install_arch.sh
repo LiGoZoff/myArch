@@ -3,12 +3,9 @@
 nmcli device wifi connect Xiaomi_0298_5G password 59563129
 
 git clone https://github.com/LiGoZoff/myArch.git
-sudo chmod +x ~/myArch/.config/hypr/vscode.sh
-sudo chmod +x ~/myArch/.config/rofi/launcher.sh
 sudo chmod +x ~/myArch/scripts/install.sh
-sudo chmod +x ~/myArch/scripts/zapret.sh
-sudo chmod +x ~/myArch/.config/hypr/wallpaper.sh
 ./myArch/scripts/install.sh
+
 
 tar -xJf ~/myArch/themes/Kripton-v40.tar.xz
 tar -xvzf ~/myArch/themes/cursor.tar.gz 
