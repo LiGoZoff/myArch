@@ -2,7 +2,7 @@
 
 /*****----- Configuration -----*****/
 configuration {
-	modi:                       "drun,run,filebrowser,window";
+	modi:                       "run,drun,filebrowser,window";
     show-icons:                 true;
     display-drun:               "APPS";
     display-run:                "RUN";
@@ -53,7 +53,7 @@ listbox {
     padding:                     20px;
     background-color:            transparent;
     orientation:                 vertical;
-    children:                    [ "message", "listview" ];
+    children:                    [ "listview", "message" ];
 }
 
 

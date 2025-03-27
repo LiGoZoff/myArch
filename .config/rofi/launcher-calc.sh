@@ -3,5 +3,5 @@ theme='style-1'
 
 ## Run
 rofi \
-    -show drun \
+    -show calc \
     -theme ${dir}/${theme}.rasi
