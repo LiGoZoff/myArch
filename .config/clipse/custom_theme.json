@@ -1,7 +1,7 @@
-@import "$HOME/.cache/wallust/*.json"
+@import "$HOME/.cache/wal/colors.json"
 
 {
-    "useCustomTheme": false,
+    "useCustomTheme": true,
     "TitleFore": "@background",
     "TitleBack": "#6F4CBC",
     "TitleInfo": "#3498db",
