@@ -37,7 +37,7 @@
     "exec": "checkupdates | wc -l",
     "exec-if": "[[ $(checkupdates | wc -l) ]]",
     "interval": 15,
-    "on-click": "kitty -T update yay -Syu",
+    "on-click": "kitty -T update yay -Syyuu",
 
     },
 	
@@ -137,7 +137,7 @@
     
         "bluetooth": {
         "format": "",
-        "on-click": "exec alacritty --title=bluetuith -e bluetuith",
+     ///   "on-click": "exec kitty --class bluetuith -e 'bluetuith'",
         "format-disabled": "",
         "format-off": "<",
         "format-on": "",
