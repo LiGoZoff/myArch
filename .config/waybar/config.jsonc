@@ -63,7 +63,6 @@
 		"default": ["", "", ""]
 		},
 		"on-click": "pavucontrol",
-		"on-click-right": "exec qjackctl",
 		"tooltip": false,
 	},
 	
