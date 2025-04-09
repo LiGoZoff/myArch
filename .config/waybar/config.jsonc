@@ -35,7 +35,7 @@
     "custom/updater":{
     "format": " {}",
     "tooltip": false,
-    "interval": 3600,
+    "interval": 600,
     "exec": "exec $HOME/.config/waybar/checkupdate.sh",
     "on-click": "kitty -T update yay -Syu",
 
