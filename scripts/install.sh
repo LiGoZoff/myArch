@@ -6,6 +6,7 @@ sudo chmod +x ~/myArch/.config/rofi/launcher-calc.sh
 sudo chmod +x ~/myArch/.config/rofi/launcher-emoji.sh
 sudo chmod +x ~/myArch/scripts/zapret.sh
 sudo chmod +x ~/myArch/.config/hypr/wallpaper.sh
+sudo chmod +x ~/myArch/.config/hypr/chrome/generate-themes.sh
 sudo chmod +x ~/myArch/.config/waybar/checkupdate.sh
 
 cd /opt/
