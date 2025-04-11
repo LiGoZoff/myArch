@@ -6,7 +6,7 @@ rm -rf .cache/wal
 cd Pictures/Wallpapers
 wal -i .wallpaper_current
 pkill -SIGUSR2 waybar
+hyprctl reload
 pkill -SIGUSR1 waybar
 ln -s $HOME/.cache/wal/colors-discord.css $HOME/.config/vesktop/themes/pywal-vencord.theme.css
 bash $HOME/.config/hypr/chrome/generate-theme.sh
-hyprctl reload
