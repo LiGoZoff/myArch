@@ -79,6 +79,7 @@ button:hover {
 #pulseaudio.muted {
 	color: rgb(255, 0, 0);
 }
+
 #pulseaudio.microphone {
 	padding: 2 15;
 	margin: 5;
@@ -88,7 +89,7 @@ button:hover {
 	border: none;
 	border-radius: 0 20 20 0;
 }
-#custom-updater {
+#custom-pacman {
 	padding: 2 15;
 	margin: 5;
 	color: @color2;
