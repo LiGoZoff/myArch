@@ -89,13 +89,26 @@ button:hover {
 	border: none;
 	border-radius: 0 20 20 0;
 }
+
+@keyframes blink-update {
+	to {
+		background-color: @color3;
+	}
+}
+
 #custom-pacman {
 	padding: 2 15;
 	margin: 5;
+	border-radius: 20;
 	color: @color2;
 	background-color: @background;
-	border: none;
-	border-radius: 20;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+#custom-pacman.pending-updates {
+	animation-name: blink-update;
+	animation-duration: 3s;
 }
 
 #clock {
