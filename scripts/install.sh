@@ -5,7 +5,8 @@ sudo chmod +x ~/myArch/.config/rofi/launcher.sh
 sudo chmod +x ~/myArch/.config/rofi/launcher-calc.sh
 sudo chmod +x ~/myArch/.config/rofi/launcher-emoji.sh
 sudo chmod +x ~/myArch/scripts/zapret.sh
-sudo chmod +x ~/myArch/.config/hypr/chrome/generate-themes.sh
+sudo chmod +x ~/myArch/.config/hypr/Themes/Chrome/generate-themes.sh
+sudo chmod +x ~/myArch/.config/hypr/Themes/pywal-obsidian
 
 cd /opt/
 sudo git clone https://aur.archlinux.org/yay.git
