@@ -1,7 +1,0 @@
-[Unit]
-Description=rfkillunblock service
-After=network.target
-[Service]
-ExecStart=/etc/init.d/rfkillunblock
-[Install]
-WantedBy=multi-user.target
