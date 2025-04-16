@@ -31,11 +31,11 @@ sudo systemctl enable bluetooth
 sudo systemctl start bluetooth
 sudo rfkill unblock all
 sudo mkdir /etc/init.d
-sudo mv ~/myArch/conf/rfkillunblock /etc/init.d/
-sudo chmod +x /etc/init.d/rfkillunblock
-sudo mv ~/myArch/conf/rfkillunblock.service /etc/systemd/system/
-sudo systemctl start rfkillunblock
-sudo systemctl enable rfkillunblock
+sudo mv ~/myArch/conf/autostart /etc/init.d/
+sudo chmod +x /etc/init.d/autustart
+sudo mv ~/myArch/conf/autostart.service /etc/systemd/system/
+sudo systemctl start autostart
+sudo systemctl enable autostart
 gsettings set org.cinnamon.desktop.default-applications.terminal exec kitty
 
 sudo cp -i /usr/lib/sddm/sddm.conf.d/default.conf /etc/sddm.conf
