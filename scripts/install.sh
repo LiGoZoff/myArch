@@ -76,4 +76,4 @@ sudo mv ~/Papirus ~/.icons
 
 sudo mv ~/simple-sddm /usr/share/sddm/themes/
 
-./myArch/scripts/zapret.sh
+bash /myArch/scripts/zapret.sh
