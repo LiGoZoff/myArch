@@ -5,7 +5,6 @@ sudo chmod +x ~/myArch/.config/hypr/brightness.sh
 sudo chmod +x ~/myArch/.config/rofi/launcher.sh
 sudo chmod +x ~/myArch/.config/rofi/launcher-calc.sh
 sudo chmod +x ~/myArch/.config/rofi/launcher-emoji.sh
-sudo chmod +x ~/myArch/scripts/zapret.sh
 sudo chmod +x ~/myArch/.config/hypr/Themes/Chrome/generate-themes.sh
 sudo chmod +x ~/myArch/.config/hypr/Themes/pywal-obsidian/pywal-obsidian.sh
 
@@ -76,5 +75,8 @@ sudo mv ~/Papirus-Dark ~/.icons
 sudo mv ~/Papirus ~/.icons
 
 sudo mv ~/simple-sddm /usr/share/sddm/themes/
+
+sudo chmod +x ~/myArch/scripts/dpi.sh
+bash ~/myArch/scripts/dpi.sh
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/Snowy-Fluffy/zapret.installer/refs/heads/main/installer.sh)"
