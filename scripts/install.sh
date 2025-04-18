@@ -1,6 +1,7 @@
 #!/bin/bash
 
 sudo chmod +x ~/myArch/.config/hypr/vscode.sh
+sudo chmod +x ~/myArch/.config/hypr/brightness.sh
 sudo chmod +x ~/myArch/.config/rofi/launcher.sh
 sudo chmod +x ~/myArch/.config/rofi/launcher-calc.sh
 sudo chmod +x ~/myArch/.config/rofi/launcher-emoji.sh
