@@ -10,4 +10,4 @@ hyprctl reload
 pkill -SIGUSR1 waybar
 ln -s $HOME/.cache/wal/colors-discord.css $HOME/.config/vesktop/themes/pywal-vencord.theme.css
 bash $HOME/.config/hypr/Themes/Chrome/generate-theme.sh
-bash ~/.config/hypr/Themes/pywal-obsidianmd/pywal-obsidianmd.sh "~/Документы/Obsidian"
+bash ~/.config/hypr/Themes/pywal-obsidian/pywal-obsidian.sh "~/Документы/Obsidian"
