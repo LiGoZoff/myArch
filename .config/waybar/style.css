@@ -76,6 +76,14 @@ button:hover {
 	border-radius: 20 0 0 20;
 }
 
+#custom-spotify {
+	padding: 2 15;
+	margin: 5;
+	background-color: @background;
+	border: none;
+	border-radius: 20;
+}
+
 #pulseaudio {
 	padding: 2 15;
 	margin: 5;
