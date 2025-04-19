@@ -3,9 +3,9 @@
 	"width": 1880,
 	"margin-top": 10,
 
-	"modules-left": ["cpu", "memory", "temperature", "hyprland/workspaces"],
+	"modules-left": ["cpu", "memory", "temperature", "hyprland/workspaces", "custom/spotify"],
 	"modules-center": ["hyprland/window", "tray"],
-	"modules-right": ["custom/spotify", "backlight", "pulseaudio", "pulseaudio#microphone", "clock", "battery", "custom/pacman"],
+	"modules-right": ["backlight", "pulseaudio", "pulseaudio#microphone", "clock", "battery", "custom/pacman"],
 
 	"hyprland/workspaces": {
 		"format": "{icon}",
