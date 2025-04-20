@@ -137,7 +137,8 @@ button:hover {
 	border: none;
 	border-radius: 20;
 }
-#cpu {
+
+#power-profiles-daemon {
 	padding: 2 15;
 	margin: 5;
 	margin-right: -2;
@@ -145,6 +146,16 @@ button:hover {
 	background-color: @background;
 	border: none;
 	border-radius: 20 0 0 20;
+}
+#cpu {
+	padding: 2 15;
+	margin: 5;
+	margin-right: -2;
+	margin-left: -2;
+	color: @color2;
+	background-color: @background;
+	border: none;
+	border-radius: 0;
 }
 #memory {
 	padding: 2 15;

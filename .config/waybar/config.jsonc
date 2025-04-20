@@ -3,11 +3,12 @@
 	"width": 1880,
 	"margin-top": 10,
 
-	"modules-left": ["cpu", "memory", "temperature", "hyprland/workspaces", "custom/spotify"],
+	"modules-left": ["power-profiles-daemon", "cpu", "memory", "temperature", "hyprland/workspaces", "custom/spotify"],
 	"modules-center": ["hyprland/window", "tray"],
 	"modules-right": ["backlight", "pulseaudio", "pulseaudio#microphone", "clock", "battery", "custom/pacman"],
 
-	"hyprland/workspaces": {
+    
+    "hyprland/workspaces": {
 		"format": "{icon}",
 		"on-click": "activate",
         "persistent-workspaces": {
@@ -63,19 +64,30 @@
 	"format-icons": [""]
     },
 
+    "power-profiles-daemon": {
+        "format": "{icon}",
+        "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
+        "tooltip": true,
+        "format-icons": {
+          "default": "",
+          "performance": "",
+          "balanced": "",
+          "power-saver": ""
+        }
+      },
+
     "custom/spotify": {
-    "exec": "/usr/bin/python3 ~/.config/waybar/mediaplayer.py --player spotify",
-    "format": "{}  ",
-    "return-type": "json",
-    "on-click": "playerctl play-pause",
-   // "on-click": "playerctl next",
-    "on-click-right": "playerctl previous",
-   // "on-scroll-up": "playerctl next",
-    //"on-scroll-down": "playerctl previous"
-    },
+        "exec": "/usr/bin/python3 ~/.config/waybar/mediaplayer.py --player spotify",
+        "format": "{}  ",
+        "return-type": "json",
+        "on-click": "playerctl play-pause",
+       // "on-click": "playerctl next",
+        "on-click-right": "playerctl previous",
+       // "on-scroll-up": "playerctl next",
+        //"on-scroll-down": "playerctl previous"
+        },
     
-    
-	"pulseaudio": {
+    "pulseaudio": {
 		"scroll-step": 1,
 		"format": "{icon} {volume}%",
 		"format-icons": {
