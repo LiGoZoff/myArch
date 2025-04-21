@@ -4,7 +4,7 @@
 	"margin-top": 10,
 
 	"modules-left": ["power-profiles-daemon", "cpu", "memory", "temperature", "hyprland/workspaces", "custom/spotify"],
-	"modules-center": ["hyprland/window", "tray"],
+	"modules-center": ["tray"],
 	"modules-right": ["backlight", "pulseaudio", "pulseaudio#microphone", "clock", "battery", "custom/pacman"],
 
     
@@ -44,14 +44,6 @@
     "exec": "waybar-updates",
     "on-click": "kitty -T update yay -Syu",
     },
-	
-
-	"hyprland/window": {
-		"format": "{class}",
-		"separate-outputs": false,
-	},
-
-
 
 	"tray": {
 		"icon-size": 20,
@@ -108,7 +100,7 @@
                 "interval": 1,
 		"format": " {:%I:%M:%S}",
 		"tooltip-format": "<big><span color='#000000'>{:%Y %B}</span></big>\n<tt><small>{calendar}</small></tt>",
-		"format-alt": " {:%Y-%m-%d}",
+		"format-alt": " {:%d-%m-%Y}",
 
         "calendar": {
                     "mode"          : "month",

@@ -48,16 +48,6 @@ button:hover {
 #workspaces button.urgent {
 }
 
-#window {
-	padding: 2 15;
-	margin: 5;
-	color: @color2;
-	background-color: @background;
-	border: none;
-	border-radius: 20;
-}
-
-
 #tray {
 	padding: 2 15;
 	margin: 5;
