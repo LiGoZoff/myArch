@@ -9,4 +9,5 @@ sudo chmod +x ~/myArch/scripts/install.sh
 sudo rm -rf ~/myArch
 sudo rm -rf ~/install_arch.sh
 
-systemctl poweroff
+nwg-look
+swengine
