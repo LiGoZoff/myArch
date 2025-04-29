@@ -128,6 +128,15 @@ button:hover {
 	border-radius: 20;
 }
 
+#privacy {
+	padding: 2 15;
+	margin: 5;
+	color: @color2;
+	background-color: @background;
+	border: none;
+	border-radius: 20;
+}
+
 #power-profiles-daemon {
 	padding: 2 15;
 	margin: 5;
