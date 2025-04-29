@@ -82,5 +82,3 @@ sudo mv ~/simple-sddm /usr/share/sddm/themes/
 
 sudo chmod +x ~/myArch/scripts/dpi.sh
 bash ~/myArch/scripts/dpi.sh
-
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/Snowy-Fluffy/zapret.installer/refs/heads/main/installer.sh)"
