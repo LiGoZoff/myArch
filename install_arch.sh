@@ -8,6 +8,3 @@ sudo chmod +x ~/myArch/scripts/install.sh
 
 sudo rm -rf ~/myArch
 sudo rm -rf ~/install_arch.sh
-
-nwg-look
-swengine
