@@ -87,3 +87,6 @@ git clone https://github.com/Snowy-Fluffy/zapret.installer.git
 cd zapret.installer
 sudo chmod +x installer.sh
 ./installer.sh
+
+nwg-look 
+swengine 
