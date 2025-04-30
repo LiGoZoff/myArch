@@ -82,3 +82,8 @@ sudo mv ~/simple-sddm /usr/share/sddm/themes/
 
 sudo chmod +x ~/myArch/scripts/dpi.sh
 bash ~/myArch/scripts/dpi.sh
+cd /opt
+git clone https://github.com/Snowy-Fluffy/zapret.installer.git
+cd zapret.installer
+sudo chmod +x installer.sh
+./installer.sh
