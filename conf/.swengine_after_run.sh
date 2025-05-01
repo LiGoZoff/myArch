@@ -7,5 +7,6 @@ wal -i $HOME/Pictures/Wallpapers/.wallpaper_current
 pkill -SIGUSR2 waybar
 hyprctl reload
 pkill -SIGUSR1 waybar
+pywalfox
 ln -s $HOME/.cache/wal/colors-discord.css $HOME/.config/vesktop/themes/pywal-vencord.theme.css
 bash ~/.config/hypr/Themes/pywal-obsidian/pywal-obsidian.sh "~/Документы/Obsidian"
