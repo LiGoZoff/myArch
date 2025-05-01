@@ -23,8 +23,8 @@ sudo localectl set-locale ru_RU.UTF-8
 sudo locale-gen
 
 cd ~
-sudo pacman -S ttf-ubuntu-font-family reflector mpv ttf-hack firefox ttf-opensans ipset power-profiles-daemon mako mtpfs gvfs-mtp libmtp dotnet-sdk nemo rofi rofi-calc rofi-emoji nftables ibus pavucontrol dnscrypt-proxy python-pywal flatpak imv proton-vpn-gtk-app fastfetch neofetch cmatrix waybar qbittorrent network-manager-applet steam obsidian file-roller nwg-look btop noto-fonts noto-fonts-emoji noto-fonts-cjk ttf-hannom xdg-desktop-portal-hyprland xdg-desktop-portal-gtk xdg-desktop-portal-wlr xdg-desktop-portal ttf-font-awesome plasma-framework5 lib32-sdl2 dnsutils telegram-desktop syncthing webkit2gtk
-yay -S hyprpicker swww-git swengine clipse cava youtube-music-bin vesktop-bin yandex-music bluetuith-bin onlyoffice-bin ttf-font-icons ttf-ionicons protontricks hyprlock hypridle bluez bluez-utils bluez-deprecated-tools cliphist visual-studio-code-bin spotify portproton waybar-updates
+sudo pacman -S ttf-ubuntu-font-family reflector mpv ttf-hack firefox ttf-opensans ipset power-profiles-daemon mako mtpfs gvfs-mtp libmtp dotnet-sdk nemo rofi rofi-calc rofi-emoji nftables ibus pavucontrol dnscrypt-proxy python-pywal flatpak imv proton-vpn-gtk-app fastfetch neofetch cmatrix waybar qbittorrent network-manager-applet steam obsidian file-roller nwg-look btop noto-fonts noto-fonts-emoji noto-fonts-cjk ttf-hannom xdg-desktop-portal-hyprland xdg-desktop-portal-gtk xdg-desktop-portal-wlr xdg-desktop-portal ttf-font-awesome plasma-framework5 lib32-sdl2 dnsutils telegram-desktop syncthing webkit2gtk sbsigntools mokutil refind efitools
+yay -S hyprpicker swww-git swengine clipse cava youtube-music-bin vesktop-bin yandex-music bluetuith-bin onlyoffice-bin ttf-font-icons ttf-ionicons protontricks hyprlock hypridle bluez bluez-utils bluez-deprecated-tools cliphist visual-studio-code-bin spotify portproton waybar-updates shim-signed
 flatpak install flathub io.github.Soundux
 sudo pacman -Rns wofi dunst vim dolphin
 
@@ -85,7 +85,7 @@ bash ~/myArch/scripts/secureboot.sh
 sudo chmod +x ~/myArch/scripts/dpi.sh
 bash ~/myArch/scripts/dpi.sh
 cd /opt
-git clone https://github.com/Snowy-Fluffy/zapret.installer.git
+git clone https://github.com/Snowy-Fluffy/zapret.installer
 cd zapret.installer
 sudo chmod +x installer.sh
 ./installer.sh
