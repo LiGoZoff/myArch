@@ -87,7 +87,6 @@ bash ~/myArch/scripts/dpi.sh
 cd /opt
 sudo git clone https://github.com/Snowy-Fluffy/zapret.installer
 cd zapret.installer
-sudo chmod +x installer.sh
 ./installer.sh
 
 nwg-look 
