@@ -5,8 +5,8 @@ sudo chmod +x ~/myArch/.config/hypr/brightness.sh
 sudo chmod +x ~/myArch/.config/rofi/launcher.sh
 sudo chmod +x ~/myArch/.config/rofi/launcher-calc.sh
 sudo chmod +x ~/myArch/.config/rofi/launcher-emoji.sh
-sudo chmod +x ~/myArch/.config/hypr/Themes/Chrome/generate-themes.sh
 sudo chmod +x ~/myArch/.config/hypr/Themes/pywal-obsidian/pywal-obsidian.sh
+sudo chmod +x ~/myArch/scripts/secureboot.sh
 
 cd /opt/
 sudo git clone https://aur.archlinux.org/yay.git
@@ -79,6 +79,8 @@ sudo mv ~/Papirus-Dark ~/.icons
 sudo mv ~/Papirus ~/.icons
 
 sudo mv ~/simple-sddm /usr/share/sddm/themes/
+
+bash ~/myArch/scripts/secureboot.sh
 
 sudo chmod +x ~/myArch/scripts/dpi.sh
 bash ~/myArch/scripts/dpi.sh
