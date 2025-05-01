@@ -85,7 +85,7 @@ bash ~/myArch/scripts/secureboot.sh
 sudo chmod +x ~/myArch/scripts/dpi.sh
 bash ~/myArch/scripts/dpi.sh
 cd /opt
-git clone https://github.com/Snowy-Fluffy/zapret.installer
+sudo git clone https://github.com/Snowy-Fluffy/zapret.installer
 cd zapret.installer
 sudo chmod +x installer.sh
 ./installer.sh
