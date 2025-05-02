@@ -80,6 +80,16 @@ sudo mv ~/Papirus ~/.icons
 
 sudo mv ~/simple-sddm /usr/share/sddm/themes/
 
+echo "Will you be installing Windows with Dual Boot? (y/n)"
+
+read secureboot
+
+if [ $secureboot = "y" ]; then
+    bash $HOME/myArch/scripts/secureboot.sh
+else
+    echo "Done"
+fi
+
 bash ~/myArch/scripts/secureboot.sh
 
 sudo chmod +x ~/myArch/scripts/dpi.sh
