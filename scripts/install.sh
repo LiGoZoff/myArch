@@ -90,14 +90,19 @@ else
     echo "Done"
 fi
 
-bash ~/myArch/scripts/secureboot.sh
 
-sudo chmod +x ~/myArch/scripts/dpi.sh
-bash ~/myArch/scripts/dpi.sh
-cd /opt
-sudo git clone https://github.com/Snowy-Fluffy/zapret.installer
-cd zapret.installer
-./installer.sh
+echo "Will you be installing Zapret? (y/n)"
+
+read zapret
+
+if [ $zapret = "y" ]; then
+   sudo chmod +x ~/myArch/scripts/dpi.sh
+   bash $HOME/myArch/scripts/dpi.sh
+   sh -c "$(curl -fsSL https://raw.githubusercontent.com/Snowy-Fluffy/zapret.installer/refs/heads/main/installer.sh)"
+else
+    echo "Done"
+fi
+
 
 nwg-look 
 swengine 
