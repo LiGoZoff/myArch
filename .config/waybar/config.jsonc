@@ -90,11 +90,9 @@
         "exec": "/usr/bin/python3 ~/.config/waybar/mediaplayer.py --player spotify",
         "format": "{}  ",
         "return-type": "json",
-        "on-click": "playerctl play-pause",
-       // "on-click": "playerctl next",
-        "on-click-right": "playerctl previous",
-       // "on-scroll-up": "playerctl next",
-        //"on-scroll-down": "playerctl previous"
+       "on-click": "playerctl next",
+       "on-scroll-up": "playerctl next",
+        "on-scroll-down": "playerctl previous"
         },
     
     "pulseaudio": {
