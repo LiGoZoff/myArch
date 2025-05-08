@@ -1,7 +1,6 @@
-dir="$HOME/.config/rofi/"
-theme='style-1'
-
-## Run
-rofi \
-    -show calc \
-    -theme ${dir}/${theme}.rasi
+#!/bin/sh
+if pgrep -x rofi; then
+    killall rofi
+else
+    rofi -show calc -theme $HOME/.config/rofi/style-1.rasi
+fi 
