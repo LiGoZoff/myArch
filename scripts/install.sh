@@ -80,6 +80,21 @@ sudo mv ~/Papirus ~/.icons
 
 sudo mv ~/simple-sddm /usr/share/sddm/themes/
 
+echo "Do you want install Chaotic-AUR? (y/n)"
+
+read chaotic
+
+if [ $chaotic = "y" ]; then
+    sudo pacman-key --recv-key 3056513887B78AEB --keyserver keyserver.ubuntu.com
+    sudo pacman-key --lsign-key 3056513887B78AEB
+    sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst'
+    sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst'
+    sudo mv $HOME/myArch/conf/pacman-chaotic-aur.conf /etc/pacman.conf
+    sudo pacman -Syu
+else
+    echo "Done"
+fi
+
 echo "Will you be installing Windows with Dual Boot? (y/n)"
 
 read secureboot
@@ -91,7 +106,7 @@ else
 fi
 
 
-echo "Will you be installing Zapret? (y/n)"
+echo "Do you want install Zapret? (y/n)"
 
 read zapret
 
