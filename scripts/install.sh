@@ -4,6 +4,7 @@ sudo chmod +x ~/myArch/.config/hypr/vscode.sh
 sudo chmod +x ~/myArch/.config/hypr/Brightness.sh
 sudo chmod +x ~/myArch/.config/hypr/Volume.sh
 sudo chmod +x ~/myArch/.config/hypr/TouchPad.sh
+sudo chmod +x ~/myArch/conf/blobdrop.sh
 sudo chmod +x ~/myArch/.config/rofi/launcher.sh
 sudo chmod +x ~/myArch/.config/rofi/launcher-calc.sh
 sudo chmod +x ~/myArch/.config/rofi/launcher-emoji.sh
@@ -42,6 +43,7 @@ sudo mv ~/myArch/conf/autostart.service /etc/systemd/system/
 sudo systemctl start autostart
 sudo systemctl enable autostart
 gsettings set org.cinnamon.desktop.default-applications.terminal exec kitty
+sudo mv ~/myArch/conf/blobdrop.sd $HOME/.local/share/nemo/scripts/
 
 sudo cp -i /usr/lib/sddm/sddm.conf.d/default.conf /etc/sddm.conf
 sudo mv ~/myArch/conf/sddm.conf /etc/
